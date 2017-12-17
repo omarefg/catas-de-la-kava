@@ -31,7 +31,7 @@
         <li>Servicio al cliente</li>
       </ul>
     </div>
-    <header>
+    <header id="header">
       <div class="subhead1">
         <ul>
           <li>Servicio al cliente</li>
@@ -112,7 +112,7 @@
         </div>
       </div>
     </header>
-    <section class="container learn">
+    <section class="container learn" id="section1">
       <div class="title">
         <h1>¿QUÉ APRENDES EN NUESTRAS CATAS?
           <div class="border2"></div>
@@ -136,7 +136,7 @@
         </div>
       </div>
     </section>
-    <section class="container best">
+    <section class="container best" id="section2">
       <div class="title">
         <h1>LOS MEJORES VINOS DE MENDOZA
           <div class="border3"></div>
@@ -146,7 +146,7 @@
         <p>Catena Zapata comenzó a elaborar la linea ALAMOS en 1993, como segunda marca después de CATENA. Las uvas para su elaboración provienen de los viñedos más jóvenes de la familia Catena, situados en las mejores áreas de las zonas altas de Mendoza. El rendimiento por hectárea es bajo y la cosecha es siempre manual, a fin de asegurar un manejo cuidadoso de la materia prima.<br><br>La filosofía que define Alamos yace en lograr vinos frescos y fáciles de tomar, resaltando los sabores, aromas y texturas características de cada varietal.</p>
       </div>
     </section>
-    <section class="container experience">
+    <section class="container experience" id="section3">
       <div class="title">
         <h3>LA EXPERIENCIA</h3>
       </div>
@@ -156,6 +156,10 @@
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" type="text/javascript"></script>
     <script type="text/javascript">
+      const header = document.getElementById('header')
+      const section1 = document.getElementById('section1')
+      const section2 = document.getElementById('section2')
+      const section3 = document.getElementById('section3')
       const bbutton = document.getElementById('bbutton');
       const cbutton = document.getElementById('cbutton');
       const menu = document.getElementById('menu');
