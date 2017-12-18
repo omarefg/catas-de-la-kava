@@ -203,7 +203,7 @@ _:-ms-fullscreen, :root .ie11up, .subfeatures p{
 
 /*Subhead3*/
 .subhead3{
-  background-image: url('../header.png');
+  background-image: url('../images/header.png');
   height: 340px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -384,7 +384,7 @@ _:-ms-fullscreen, :root .ie11up, .subfeatures p{
     margin: 0 0 0 -40px;
   }
   .subhead3{
-    background-image: url('../header2.png');
+    background-image: url('../images/header2.png');
     height: 700px;
   }
   .subhead3 h1, .subhead3 h2, .subhead3 p, .subhead3 button {
@@ -442,7 +442,7 @@ _:-ms-fullscreen, :root .ie11up, .subfeatures p{
   }
   .subhead3{
     margin-top: 25px;
-    background-image: url('../header3.png');
+    background-image: url('../images/header3.png');
     height: 650px;
   }
   .subhead3 h1{
