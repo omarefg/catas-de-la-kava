@@ -52,7 +52,7 @@ _:-ms-fullscreen, :root .ie11up, .subfeatures p{
   flex-direction: row;
   margin-top: 25px;
   margin-bottom: 25px;
-  /* align-items: center; */
+  align-items: center;
   position: relative;
 }
 .bbutton{
