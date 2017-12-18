@@ -184,8 +184,7 @@
       const circle4 = document.getElementById('circle4');
       const tienda = document.getElementById('tienda');
       const submenu = document.getElementById('submenu2');
-      const body=document.body;
-      const gestos = new Hammer(body);
+
       s.addListener(menuCan());
 
       function toggleMenu(){
@@ -220,6 +219,8 @@
           circle2.addEventListener('touchstart', selectSubtitle2);
           circle3.addEventListener('touchstart', selectSubtitle3);
           circle4.addEventListener('touchstart', selectSubtitle4);
+          const body=document.body;
+          const gestos = new Hammer(body);
           gestos.on('swipeleft', hideMenu);
           gestos.on('swiperight', showMenu);
         }
